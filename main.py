@@ -15,7 +15,7 @@ flask_app = Flask(__name__)
 file_dir = ""
 file_name = ""
 access_token = ""
-UPLOAD_DIR = r"C:\Users\nadav\OneDrive\Documents\Coding\Personal\qrdrop\received"
+UPLOAD_DIR = r"path\received"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 # Path for logging
